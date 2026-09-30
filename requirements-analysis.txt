@@ -1,0 +1,13 @@
+-r requirements-core.txt
+matplotlib==3.11.0
+Pillow==12.3.0
+lightgbm==4.6.0
+catboost==1.2.10
+spiceypy==8.1.2
+python-pptx==1.0.2
+# Optional public-PDF extraction and raw-workbook readers:
+pdfplumber
+pypdf
+openpyxl
+astropy
+itur==0.4.0

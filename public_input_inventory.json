@@ -1,0 +1,2319 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-30",
+  "scope": "Public-source requirements for the original manuscript branch. Raw public binaries are not included.",
+  "public_download_groups": [
+    {
+      "id": "lugre_observations",
+      "required_for": [
+        "raw target reconstruction",
+        "raw quality screening",
+        "Fig7/ED1 1Hz observation scatter"
+      ],
+      "version": "LuGRE Mission Data v1, DOI 10.5281/zenodo.16411687",
+      "source_page": "https://zenodo.org/records/16411687",
+      "source_url": "https://zenodo.org/records/16411687/files/LuGRE.zip?download=1",
+      "archive_filename": "LuGRE.zip",
+      "archive_bytes": 256135673,
+      "archive_md5": "cec32df1ca17cb95887762762c16629f",
+      "license": "CC BY 4.0",
+      "include_binary_in_release": false,
+      "verification": "Official record and ZIP preview inspected 2026-09-30. Do not substitute a URL named TLM.zip: that is a local subset archive.",
+      "extraction": "Extract the 21 listed LuGRE/L0/TLM/TLM_RAW_*.txt members to data/receiver_observation/TLM/. Other binary/IQ/MAT/acquisition products are not required for the main one-minute model.",
+      "files": [
+        {
+          "filename": "TLM_RAW_20250115_152133_01H_C_OP1_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250115_152133_01H_C_OP1_0.txt",
+          "local_bytes": 2507463,
+          "local_sha256": "b3ea3548ad6cbd968eabde76db363c9b856cdf56dbb2cf362715806599d219a3",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250115_152133_01H_C_OP1_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250116_012859_01H_C_OP2_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250116_012859_01H_C_OP2_0.txt",
+          "local_bytes": 3212634,
+          "local_sha256": "d2bf469590138781b9afdc9f4865e099960ad1536463dda7a91ef358b1e0f2d5",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250116_012859_01H_C_OP2_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250117_022153_01H_T_OP3_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250117_022153_01H_T_OP3_0.txt",
+          "local_bytes": 153454,
+          "local_sha256": "92617e1af67e5b1051a899b283aff3e262045f4ff035cd46280baf8eeca47f11",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250117_022153_01H_T_OP3_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250119_044950_01H_T_OP5_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250119_044950_01H_T_OP5_0.txt",
+          "local_bytes": 920293,
+          "local_sha256": "9d5779f5d8988f19c156205dd20f650540d4a469e00069056ac79e25a4dbde2d",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250119_044950_01H_T_OP5_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250125_050601_01H_T_OP9_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250125_050601_01H_T_OP9_0.txt",
+          "local_bytes": 1462236,
+          "local_sha256": "d9d03f0ff340ecb9c4d13d2890e46d7044e4d460e5bf08f6dd59215e611c51a4",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250125_050601_01H_T_OP9_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250130_042248_01H_T_OP12_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250130_042248_01H_T_OP12_0.txt",
+          "local_bytes": 521916,
+          "local_sha256": "9232225a2bb3cc9a5a52cc7ee0138e4a9e7b58b5ab853207e4fbc83ae6470edf",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250130_042248_01H_T_OP12_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250130_223834_01H_T_OP14_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250130_223834_01H_T_OP14_0.txt",
+          "local_bytes": 843604,
+          "local_sha256": "a5f1ad7b1a9bac72d4458471e5fb0b81378c46939b1b086ebc5742d40ccdcbbc",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250130_223834_01H_T_OP14_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250203_091119_01H_T_OP17_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250203_091119_01H_T_OP17_0.txt",
+          "local_bytes": 1864550,
+          "local_sha256": "a44d1b5c7ca92b66fbe68baed311384f723bdb39e6059b8394cc78cf7c739c7b",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250203_091119_01H_T_OP17_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250205_225648_01H_T_OP18_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250205_225648_01H_T_OP18_0.txt",
+          "local_bytes": 727666,
+          "local_sha256": "2ffed0890b25c4857b8908b3514c2f91205c48ae28d62d195f2e12e3857caf79",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250205_225648_01H_T_OP18_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250207_232648_01H_T_OP21_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250207_232648_01H_T_OP21_0.txt",
+          "local_bytes": 2604076,
+          "local_sha256": "e8d4ebe47e9bf2cad5822482d74e9bd8ccf7060f2d4fd468e86add5bdf9eb6b0",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250207_232648_01H_T_OP21_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250212_025056_01H_T_OP22_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250212_025056_01H_T_OP22_0.txt",
+          "local_bytes": 964954,
+          "local_sha256": "15b42d86e4c5227d7be3935c92c65b557428fbe5f5a380bd3691e12fc4aa0ebe",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250212_025056_01H_T_OP22_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250214_040154_01H_L_OP23_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250214_040154_01H_L_OP23_0.txt",
+          "local_bytes": 992570,
+          "local_sha256": "8d351c9573561092b2396c076759ad85bec3a5d8e76ef57ad54868f112f44598",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250214_040154_01H_L_OP23_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250219_152027_01H_L_OP27_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250219_152027_01H_L_OP27_0.txt",
+          "local_bytes": 1857539,
+          "local_sha256": "239408de3243567dd10115c4451b2611562349c18efdb764c4f8c0236527bfac",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250219_152027_01H_L_OP27_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250227_160714_01H_L_OP37_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250227_160714_01H_L_OP37_0.txt",
+          "local_bytes": 341046,
+          "local_sha256": "3a66293a2ce246054b17462c53fc0669d1af29fae0b307189385d2b9e3706b57",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250227_160714_01H_L_OP37_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250303_061243_24H_S_OP38_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250303_061243_24H_S_OP38_0.txt",
+          "local_bytes": 44208305,
+          "local_sha256": "73e84126a0050029d0071866b63daa4442e1ac641ead52bbbd32e0309d382c19",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250303_061243_24H_S_OP38_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250304_070305_14H_S_OP40_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250304_070305_14H_S_OP40_0.txt",
+          "local_bytes": 17972132,
+          "local_sha256": "837f7f240f3d13729939473699ec0cdd90c28dd73d120d44403f0efbc347711b",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250304_070305_14H_S_OP40_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250314_124700_24H_S_OP74_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250314_124700_24H_S_OP74_0.txt",
+          "local_bytes": 37403825,
+          "local_sha256": "d270894d9a55b6ce05b35c42ed235d9f86a21779203f5998cd0868e73c8fffb1",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250314_124700_24H_S_OP74_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250315_130709_26H_S_OP76_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250315_130709_26H_S_OP76_0.txt",
+          "local_bytes": 41212844,
+          "local_sha256": "32c8c3b8f818db412278df1ecabe83d2e3bb87ae9b7dc53f99bf500049831683",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250315_130709_26H_S_OP76_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250316_151215_03H_S_OP77_0.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250316_151215_03H_S_OP77_0.txt",
+          "local_bytes": 5754504,
+          "local_sha256": "232d31785579745245b0c0786e5678d907fdb8bb74b775e24741b288dcd0b7a2",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250316_151215_03H_S_OP77_0.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250316_191448_03H_S_OP77_1.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250316_191448_03H_S_OP77_1.txt",
+          "local_bytes": 4614729,
+          "local_sha256": "6d2d135fd39f9bc2d2e0dec9cde06e546ed828d673dd28fb96d10e58861cb28c",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250316_191448_03H_S_OP77_1.txt"
+        },
+        {
+          "filename": "TLM_RAW_20250316_221113_01H_S_OP78_1.txt",
+          "target_relative_path": "data/receiver_observation/TLM/TLM_RAW_20250316_221113_01H_S_OP78_1.txt",
+          "local_bytes": 1531243,
+          "local_sha256": "7d0971456360c8bdf8c1a4957cee9d0ab2f90e318a7f9a138b3d49922bdf3e3f",
+          "include_binary_in_release": false,
+          "archive_member": "LuGRE/L0/TLM/TLM_RAW_20250316_221113_01H_S_OP78_1.txt"
+        }
+      ],
+      "erratum": "The public record corrects Ancillary/OPTABLE.csv OP23 row. This is metadata; do not silently change the archived numerical branch."
+    },
+    {
+      "id": "CODE_SP3",
+      "version": "COD0MGXFIN SP3-d, 5-min, GPS time, IGS20; 2025-01-15 through 2025-03-16",
+      "required_for": [
+        "raw precise geometry reconstruction",
+        "dynamic CN0"
+      ],
+      "verification": "Per-file URLs/hashes from precise_orbit_validation_manifest_20260720.csv; all original streams were gzip/header/read-to-EOF validated. Live AIUB directory was inaccessible to web tool in this pass.",
+      "include_binary_in_release": false,
+      "files": [
+        {
+          "filename": "COD0MGXFIN_20250150000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250150000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250150000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958186,
+          "local_sha256": "afaef162feb80234b5ad37014eceab6e83c48f9306f1613f8e06c2e19bd73953"
+        },
+        {
+          "filename": "COD0MGXFIN_20250160000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250160000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250160000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 957554,
+          "local_sha256": "cf6bbb1575fb60e66217aa69b81e49ed8e1755ce7fe7afb7ef4d49585d455ced"
+        },
+        {
+          "filename": "COD0MGXFIN_20250170000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250170000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250170000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 957622,
+          "local_sha256": "1f996df877e11ba997fe43a733fc1e57584c3b1432918f9d6881650b5d82f8ad"
+        },
+        {
+          "filename": "COD0MGXFIN_20250180000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250180000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250180000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 957427,
+          "local_sha256": "9943f227643d827faae15faef44b62b5b53fa14f69e53cdc63afa6796ef77a1f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250190000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250190000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250190000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 955550,
+          "local_sha256": "e18b018289dfd7695fdf8efe7cdb303c0dc9dee229312755ca270e8bb1f2a5ef"
+        },
+        {
+          "filename": "COD0MGXFIN_20250200000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250200000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250200000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 948229,
+          "local_sha256": "7f1f282597fc1893d32759defcf1d49cb7841591a65cec7883c937f036353164"
+        },
+        {
+          "filename": "COD0MGXFIN_20250210000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250210000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250210000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 948740,
+          "local_sha256": "012bd49cdf1a81b8ed54d274d8e6e0f8f26013ae84b9f2bfa71abadf38b4e999"
+        },
+        {
+          "filename": "COD0MGXFIN_20250220000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250220000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250220000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 957001,
+          "local_sha256": "e93dc06dc01b0e9a4f8647e391d3636fd4feb6c89c368d9a6710f4d1f0e2a576"
+        },
+        {
+          "filename": "COD0MGXFIN_20250230000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250230000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250230000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949756,
+          "local_sha256": "a758e090d528d54553f3f3ac9e7f0097c9453c7cf3e6747530d68aaf3d64be18"
+        },
+        {
+          "filename": "COD0MGXFIN_20250240000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250240000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250240000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949517,
+          "local_sha256": "968ef2699e5b2c1a7bb4dd19ba33d337a751e851e245e543bae534ba33c03591"
+        },
+        {
+          "filename": "COD0MGXFIN_20250250000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250250000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250250000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950110,
+          "local_sha256": "b675b57d0990626f556f0578db003ee08557fbdc8af4c30dd5a0f4a61c637b6e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250260000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250260000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250260000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 942015,
+          "local_sha256": "65922535a9302f70a41a0248c745746b0397ca6b428a972f4d14bd02ffd81fe5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250270000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250270000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250270000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 942164,
+          "local_sha256": "5fea1e63567928fb61fb375fb331a308bd14952ad78648a43acdef14e1806424"
+        },
+        {
+          "filename": "COD0MGXFIN_20250280000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250280000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250280000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950039,
+          "local_sha256": "19acc2294a1de96e844a3bbed3769ff4c7ad293ca092eb92b8cb787e3be93e5e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250290000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250290000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250290000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949979,
+          "local_sha256": "d58458933f0b9a926125bd2844581746c81b5c20a0a6a96bd33d8848d325f544"
+        },
+        {
+          "filename": "COD0MGXFIN_20250300000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250300000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250300000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949963,
+          "local_sha256": "6459df64516db37efe510a83b2c6a635a69b01da6b2405c1c932440aa4a4ca26"
+        },
+        {
+          "filename": "COD0MGXFIN_20250310000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250310000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250310000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 956090,
+          "local_sha256": "9b743b85d694266cdc7058deeb46381a50f9318d3e28cae0af7c86445afccdab"
+        },
+        {
+          "filename": "COD0MGXFIN_20250320000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250320000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250320000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 956927,
+          "local_sha256": "f104b8d83654e52c6e1d80268522be05fd0a238c180e7d1fb40d135c321d2fe3"
+        },
+        {
+          "filename": "COD0MGXFIN_20250330000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250330000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250330000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 942508,
+          "local_sha256": "e09eb39c0ebd3e11196558ab4fc23df2ac70e6690cc441c67ede2484d186bbcc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250340000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250340000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250340000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949196,
+          "local_sha256": "a90377e494984a2e1d2b83483ac5d98a0b966683595fd34874cc53dab75381d0"
+        },
+        {
+          "filename": "COD0MGXFIN_20250350000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250350000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250350000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950350,
+          "local_sha256": "b9cda914cf9f1395f37b0ecd6a1e6d21751de8aa70c10a656ca00c6868fc2022"
+        },
+        {
+          "filename": "COD0MGXFIN_20250360000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250360000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250360000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950280,
+          "local_sha256": "6b2ab8e1876568f8226c036de31cb16548eb0127a70cca8b7ae1b3547bed98ac"
+        },
+        {
+          "filename": "COD0MGXFIN_20250370000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250370000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250370000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 949923,
+          "local_sha256": "b0be7615c48ba01a14e61ae5bef7fa4e0f6b02db1861aba09822a0cda23c5694"
+        },
+        {
+          "filename": "COD0MGXFIN_20250380000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250380000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250380000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950137,
+          "local_sha256": "36d1b51b67257d9e1e5a248a40e83766b3c6f39582cb980aef3291a0d2e641bc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250390000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250390000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250390000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 950302,
+          "local_sha256": "4a0a9b91a11a07ecf54acf1c570f643d94301d4eb46ee617f4809e1cce231f1f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250400000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250400000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250400000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958322,
+          "local_sha256": "f0d76ed50c061c20a21eca07dec80ceaff0fa0ab66de6b62d7c578c6e6308217"
+        },
+        {
+          "filename": "COD0MGXFIN_20250410000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250410000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250410000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958208,
+          "local_sha256": "f8b8403a0342a8085ed33977d4d1b743b64464569ffa62f28721c632068f5079"
+        },
+        {
+          "filename": "COD0MGXFIN_20250420000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250420000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250420000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958675,
+          "local_sha256": "a1be249f2f2d30aa3d2059beba4168f205c7c113a54cde6a6ae8fb8d9b4b0249"
+        },
+        {
+          "filename": "COD0MGXFIN_20250430000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250430000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250430000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 957911,
+          "local_sha256": "dea4b4c85c92d8ffac7feddf4a81321d915f60749d02c298e7d74ee1b326faea"
+        },
+        {
+          "filename": "COD0MGXFIN_20250440000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250440000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250440000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958383,
+          "local_sha256": "4e020e7c7d9542355b619bffb79c039115f0d9b31628372539bea925b215b498"
+        },
+        {
+          "filename": "COD0MGXFIN_20250450000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250450000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250450000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959167,
+          "local_sha256": "68378ffbf331a66d0545eb3dab980715dd23c129b22b0aea129d24fa1bf976a9"
+        },
+        {
+          "filename": "COD0MGXFIN_20250460000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250460000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250460000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958909,
+          "local_sha256": "0161b5f8ab7bdbf65abd744de893f238a9671d83fc285fe9037680449a5fdeeb"
+        },
+        {
+          "filename": "COD0MGXFIN_20250470000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250470000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250470000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958934,
+          "local_sha256": "961e6aac3107ea060cc4c1fa9e41f858f1364ce0defca2680aca865341040ed8"
+        },
+        {
+          "filename": "COD0MGXFIN_20250480000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250480000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250480000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958982,
+          "local_sha256": "7063fdc2fbfd4bb87390309da6be7d774507c8993ff655a02e2585268f607fbc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250490000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250490000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250490000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958659,
+          "local_sha256": "a56cf3e5b93391cdb0ef15e799bcffa4e466e4de3d3e84a97b71b70366959248"
+        },
+        {
+          "filename": "COD0MGXFIN_20250500000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250500000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250500000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958633,
+          "local_sha256": "ca2a02e968af4a2cabbdd9b485dc6f191e59472fa170e74a9b82dd24e1dc4085"
+        },
+        {
+          "filename": "COD0MGXFIN_20250510000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250510000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250510000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958371,
+          "local_sha256": "280e0e3b794c1df240fa2ba02abcdd3d361b6ed378bf6300b1188fc47deb0384"
+        },
+        {
+          "filename": "COD0MGXFIN_20250520000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250520000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250520000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958962,
+          "local_sha256": "8874375425be9e01b1c7a46c2f301a7911ad2ed649f39d39c2c3df9576282188"
+        },
+        {
+          "filename": "COD0MGXFIN_20250530000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250530000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250530000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959079,
+          "local_sha256": "1acf327f0dc8dcd61debf356727f9836fdb891c083917da4093028e6348b0b1d"
+        },
+        {
+          "filename": "COD0MGXFIN_20250540000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250540000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250540000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958603,
+          "local_sha256": "44f657e38683d6c44f3ddf8b9b430af0d9d957d4209a65f1aa4f0591512b09b5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250550000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250550000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250550000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958879,
+          "local_sha256": "225d3d59451ceaf7983528f126a20525944a526e50e5dc1eb5c0bbcaae698c30"
+        },
+        {
+          "filename": "COD0MGXFIN_20250560000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250560000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250560000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959265,
+          "local_sha256": "5cc405820a41eafa538b8ed72cde99f5b4936841ef00de353633786397bf2c7e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250570000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250570000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250570000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959145,
+          "local_sha256": "39225f0ae169ca54dc28914df22a824e7aec74205d107419cab5598c50d6fc1a"
+        },
+        {
+          "filename": "COD0MGXFIN_20250580000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250580000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250580000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959421,
+          "local_sha256": "160f514d24153cf35261324fcd16697efc414f02e3b8390abed9694f709cb4ec"
+        },
+        {
+          "filename": "COD0MGXFIN_20250590000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250590000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250590000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959068,
+          "local_sha256": "38c0f5c908f3d117167e3a1340fe42e9f768a4840bea389ca538e7d072ad9a7c"
+        },
+        {
+          "filename": "COD0MGXFIN_20250600000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250600000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250600000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959032,
+          "local_sha256": "3551fbe0dfb8ad4b1d8965ccc319c8ca10d7c17df741c210011471b8347a7cae"
+        },
+        {
+          "filename": "COD0MGXFIN_20250610000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250610000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250610000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959174,
+          "local_sha256": "262ede70358432b6eb4ab16f15c74f7093a17c0cfcce308d9a5d7bb4cbd5bd3e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250620000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250620000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250620000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959149,
+          "local_sha256": "5a19585a9daf6c1a13bd0f127dddf5fb59f591aabc472dbb04156c95bef293df"
+        },
+        {
+          "filename": "COD0MGXFIN_20250630000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250630000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250630000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959186,
+          "local_sha256": "92006ddea519bb2c269eb126f3e32cd46795e7c5081b2817cb192400fac8638b"
+        },
+        {
+          "filename": "COD0MGXFIN_20250640000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250640000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250640000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959191,
+          "local_sha256": "54ef7c6fc25741ee7b84cc349c4cc11f8d33ac07f24b69ad77d3baaf156ccbc5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250650000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250650000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250650000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959601,
+          "local_sha256": "648374c15d8d08b3b0c70293364d46e38976140d51aa2fb808a80bf41454c783"
+        },
+        {
+          "filename": "COD0MGXFIN_20250660000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250660000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250660000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 956159,
+          "local_sha256": "bc0af3c1033993e5b85eca44fff8866c9ce61331ce0d5963dbd57eb9800039e4"
+        },
+        {
+          "filename": "COD0MGXFIN_20250670000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250670000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250670000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959550,
+          "local_sha256": "106902530d6c99b59a63c8a4733569a193b4ff056cb7ecf9d7cc4afde8588775"
+        },
+        {
+          "filename": "COD0MGXFIN_20250680000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250680000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250680000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959576,
+          "local_sha256": "7f8471b7847110faa311bd7e3686c7db728a6e52b70626940803137928cb2b96"
+        },
+        {
+          "filename": "COD0MGXFIN_20250690000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250690000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250690000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 958919,
+          "local_sha256": "8c0541efbab56888f4b758aea70f79ee6e66cfb4acd6f5b505a0844e43d91700"
+        },
+        {
+          "filename": "COD0MGXFIN_20250700000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250700000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250700000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959604,
+          "local_sha256": "cfffcdb0c62fb26239b4e771b726da93650832c76a0293109b7541e2444d4e76"
+        },
+        {
+          "filename": "COD0MGXFIN_20250710000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250710000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250710000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959381,
+          "local_sha256": "9fe3a7eb7d01acb5ceeef139769b5cc845e84c220c6c661c33428f32d9471444"
+        },
+        {
+          "filename": "COD0MGXFIN_20250720000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250720000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250720000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959573,
+          "local_sha256": "9510ad092ea339ec55f66a66c374efc88d577524dad6aa1abe9e8167a8cdd130"
+        },
+        {
+          "filename": "COD0MGXFIN_20250730000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250730000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250730000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959520,
+          "local_sha256": "677de919ccafb2e69f6d15bff511c7ebc2336fcc74d5856e3c6041df4f3598a2"
+        },
+        {
+          "filename": "COD0MGXFIN_20250740000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250740000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250740000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959342,
+          "local_sha256": "66b9da7959cb2496fc10d056dbda8ebca61e7b7c4a5e9a20e5fd162164b8045f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250750000_01D_05M_ORB.SP3.gz",
+          "target_relative_path": "data/external_reference/precise_orbit/code_mgex_fin/COD0MGXFIN_20250750000_01D_05M_ORB.SP3.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250750000_01D_05M_ORB.SP3.gz",
+          "local_bytes": 959421,
+          "local_sha256": "ee6fb73c6d705dab494ed0da9f0fa2c4fc85aba9d51c1677dab165854d262ef6"
+        }
+      ]
+    },
+    {
+      "id": "CODE_ORBEX",
+      "version": "COD0MGXFIN 30-second ATT.OBX; GPS time; IGS20 ECEF; same 61 dates",
+      "required_for": [
+        "physical antenna budget",
+        "dynamic CN0"
+      ],
+      "verification": "Per-file URLs/hashes from code_mgex_attitude_manifest_20260713.csv. Live AIUB directory was inaccessible to web tool in this pass.",
+      "include_binary_in_release": false,
+      "files": [
+        {
+          "filename": "COD0MGXFIN_20250150000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250150000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250150000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13652486,
+          "local_sha256": "fd232601597344de585f5243d3babcd272e0b94f81ed93f3c48076ee555394ba"
+        },
+        {
+          "filename": "COD0MGXFIN_20250160000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250160000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250160000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13652593,
+          "local_sha256": "4a9e7669b6654590a399613950677442d23789ae9435d4ec84d176c8368c8692"
+        },
+        {
+          "filename": "COD0MGXFIN_20250170000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250170000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250170000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13652564,
+          "local_sha256": "6ac8bf0a2196b7f3b71f875a9985dcc9fdde46ee2b0500cda050a697ac0892a2"
+        },
+        {
+          "filename": "COD0MGXFIN_20250180000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250180000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250180000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13651067,
+          "local_sha256": "ffdc887a9a4d5b9f307c4e488b490f581dd6ce7d8d5597279f4079dc3929880e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250190000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250190000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250190000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13612290,
+          "local_sha256": "081db6d8d7a8786e485d11d3ce6b8c1c4faf7122780821ebc90b8ae30586decb"
+        },
+        {
+          "filename": "COD0MGXFIN_20250200000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250200000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250200000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13515738,
+          "local_sha256": "efe730e35714aafa493fa058b12122632092911c0180fbfdcc7fc4f70a0262bc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250210000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250210000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250210000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13539132,
+          "local_sha256": "42bd9485cdb86252bb5687149ca1d58b764ad0a862bbca67ed564335d4ee4aa5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250220000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250220000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250220000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13650688,
+          "local_sha256": "f48f9573fb84a57b8200764dfbe1c12a77d200ff8ebeed2ee5d21255d0337c8c"
+        },
+        {
+          "filename": "COD0MGXFIN_20250230000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250230000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250230000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13537471,
+          "local_sha256": "bf724bc214582d6db8975331cef9c7a17cb09d01d245cd14dab99dfba183188e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250240000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250240000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250240000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13537141,
+          "local_sha256": "7309ea74ed396c7c6671547bdf06cc999034bce99e05981a5c2a222f3020370c"
+        },
+        {
+          "filename": "COD0MGXFIN_20250250000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250250000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250250000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13538303,
+          "local_sha256": "a1c07cbb65289f466b41a4820fd827e3d07ecdb747f7fae3e4c500c843584867"
+        },
+        {
+          "filename": "COD0MGXFIN_20250260000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250260000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250260000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13425052,
+          "local_sha256": "2e2aff0d1a3c91ad6b00f24a52555ab5729711e7f5374aec05d5c4b20e611179"
+        },
+        {
+          "filename": "COD0MGXFIN_20250270000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250270000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250270000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13425498,
+          "local_sha256": "417647a6049cc669bc36308be0daa5ecb9032c4be2c3de6891a67df27e104d92"
+        },
+        {
+          "filename": "COD0MGXFIN_20250280000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250280000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250280000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13539345,
+          "local_sha256": "e2b61011f1201f3fa841f995a8ff6a6dda06ac61a6b59a211d59f8353386588d"
+        },
+        {
+          "filename": "COD0MGXFIN_20250290000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250290000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250290000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13538129,
+          "local_sha256": "7b53d11423f3175b03cf2543eb4bc0714f5ec63733ff9ffc1a49ee35d00fda87"
+        },
+        {
+          "filename": "COD0MGXFIN_20250300000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250300000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250300000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13537058,
+          "local_sha256": "50bd5b9e20ec33ac61514d462ad75f71550e9eb1ae6f2ee2a5483262eb83a7c2"
+        },
+        {
+          "filename": "COD0MGXFIN_20250310000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250310000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250310000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13628139,
+          "local_sha256": "14c22a6275ee481f7689f9b6f5ffd7921f3cb6742f007f4c4186dd24000f90c4"
+        },
+        {
+          "filename": "COD0MGXFIN_20250320000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250320000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250320000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13642770,
+          "local_sha256": "eaa847bdc79c05e93378b42f644778f5fdd7958686f1eda6d11ca12ec1f47584"
+        },
+        {
+          "filename": "COD0MGXFIN_20250330000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250330000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250330000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13424458,
+          "local_sha256": "f8fac4f809a7ab4f8eb6150cd23f7977c4e59ba326d4637866adf8f0ad54fbb5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250340000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250340000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250340000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13536650,
+          "local_sha256": "ee80cd988194349394e40d45f675ceb7bfdab2be0d9da0dc3c039ee28a3a1771"
+        },
+        {
+          "filename": "COD0MGXFIN_20250350000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250350000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250350000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13538184,
+          "local_sha256": "ef5d9b6836ee5450053e14287d0f6122802ea3ba5a8551ae1030ee92d6de14dc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250360000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250360000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250360000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13573649,
+          "local_sha256": "9746fc5f9f7c9df4c1ac04bd2c33b17b15ca478dad15f8ed4413b39302e2f3bc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250370000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250370000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250370000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13536226,
+          "local_sha256": "dd9403534cc5c1131482bca7a87c7237af6eb64761e0b38a0cccc9a3d9ec33f8"
+        },
+        {
+          "filename": "COD0MGXFIN_20250380000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250380000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250380000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13579026,
+          "local_sha256": "5f7c9ff238d28eafc7e7a1dd75d576bb9cd2017217d28b4502947a67e7829347"
+        },
+        {
+          "filename": "COD0MGXFIN_20250390000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250390000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250390000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13535426,
+          "local_sha256": "691fabf645610eaa0e4842fcd1eec259d1cb31801a55582bef838d17a7983bd7"
+        },
+        {
+          "filename": "COD0MGXFIN_20250400000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250400000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250400000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647227,
+          "local_sha256": "0e0a3e7b32c86067feb8191a47a69bc37fe123374802293f0791280150389d4c"
+        },
+        {
+          "filename": "COD0MGXFIN_20250410000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250410000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250410000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646709,
+          "local_sha256": "419c851d84ad22f02d92864d439d725e594962ada7fe9d0ee24cb4aec27f6b10"
+        },
+        {
+          "filename": "COD0MGXFIN_20250420000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250420000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250420000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647623,
+          "local_sha256": "d014ed943ced2fecd01501fc312af59c8c93d905908c15fa9c4d6854fa90e0bc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250430000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250430000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250430000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13730789,
+          "local_sha256": "a2d76a1bca4728189275cbb9138579f9aa3a432ef0ff029a47efcd0b8123a977"
+        },
+        {
+          "filename": "COD0MGXFIN_20250440000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250440000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250440000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647479,
+          "local_sha256": "5771f228b1eb3a7b4ca0adeeeb63810dfab350a8dd3312007ce6e276e8018fa5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250450000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250450000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250450000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646425,
+          "local_sha256": "8f0f00e5eb9d488790dcba6620cf20e990760d90876ed6017334afce76ef3b89"
+        },
+        {
+          "filename": "COD0MGXFIN_20250460000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250460000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250460000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647306,
+          "local_sha256": "a5f6b1c342ff91dff9a626bab7dabf384cad53d4137736d143bf4193990fd0cf"
+        },
+        {
+          "filename": "COD0MGXFIN_20250470000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250470000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250470000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13648401,
+          "local_sha256": "c0fd8ecd9b2b00f43bad3418a0bd3feb60b9838f40d625360de4216ba008b7f0"
+        },
+        {
+          "filename": "COD0MGXFIN_20250480000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250480000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250480000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646822,
+          "local_sha256": "5b676cac6e496e2f74c7d0ada65ba01896165ca12f6286970268da484c3ed34f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250490000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250490000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250490000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13645438,
+          "local_sha256": "06c8ee09f00b5ded13cac325c6e93a3212bf91423e311722878b46fda6eb7529"
+        },
+        {
+          "filename": "COD0MGXFIN_20250500000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250500000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250500000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13648219,
+          "local_sha256": "7d7b5812fc035846309f35363f2c1a613e33b169320fc4483c61ae0747f1b76f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250510000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250510000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250510000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646288,
+          "local_sha256": "1df8943ca2bd2b8482fd9631195aa0e674f46a896e87f899ed0d1c79b05bb1c1"
+        },
+        {
+          "filename": "COD0MGXFIN_20250520000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250520000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250520000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13683783,
+          "local_sha256": "b31136d60ec4a967334c1354e22eba43fb6052afd9c8f16a566c0d1e51a525c9"
+        },
+        {
+          "filename": "COD0MGXFIN_20250530000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250530000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250530000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647039,
+          "local_sha256": "4abed1d9cbf21e5042ff9083115ac882777fbeb1f1d7a13bbca24b35c965e9fe"
+        },
+        {
+          "filename": "COD0MGXFIN_20250540000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250540000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250540000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646181,
+          "local_sha256": "25b7eae717ecdc142c8e853e0f3e0c71a99b8a13ef62bb9740f2fc2534d561b1"
+        },
+        {
+          "filename": "COD0MGXFIN_20250550000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250550000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250550000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644375,
+          "local_sha256": "ffc5cd5ea363cf49242f5c845b4bc836fdd6081a6039cd64dbc0feb6b0bbda5f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250560000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250560000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250560000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646498,
+          "local_sha256": "2ad3bea6c4e1794a71dd7fc1e3672856d0eb6fbbe80b087fc3867f3dbb9bd3b6"
+        },
+        {
+          "filename": "COD0MGXFIN_20250570000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250570000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250570000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13647231,
+          "local_sha256": "de5a772c0887eec547bf3c121948af538f71a1816c11a45fedb810e04f4cac4f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250580000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250580000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250580000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13645585,
+          "local_sha256": "0fa5bc0f7d6aa6af1c0cef802696bdcf74b5ec948e905420309125bb68a07beb"
+        },
+        {
+          "filename": "COD0MGXFIN_20250590000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250590000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250590000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13646155,
+          "local_sha256": "727af65df469a363c41094e3a74e818b2552e1aef0b3f5cf162e7baac63a98c7"
+        },
+        {
+          "filename": "COD0MGXFIN_20250600000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250600000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250600000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644233,
+          "local_sha256": "7b0eaa574f3cb61a58e629de3229f1ab07962d4ceecaadb3b206eba3aa2c8afc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250610000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250610000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250610000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644972,
+          "local_sha256": "2e00fc2536f89f67d1165ce2be2ff5640957227e6ac124f135d964af1a94de89"
+        },
+        {
+          "filename": "COD0MGXFIN_20250620000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250620000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250620000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644224,
+          "local_sha256": "dd5ad9ca7d1b7027e4e8b337c5b6627f60740c36e63b0018c3f20110313fc653"
+        },
+        {
+          "filename": "COD0MGXFIN_20250630000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250630000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250630000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13645513,
+          "local_sha256": "6dcc789311aa4da56a3576d5e1da7ea13f7353107b7eddec2150cc5923eab192"
+        },
+        {
+          "filename": "COD0MGXFIN_20250640000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250640000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250640000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644493,
+          "local_sha256": "34064ef01787637d3bec1972f7a0a5bc371d55742120baa0f70ef4d9292e396a"
+        },
+        {
+          "filename": "COD0MGXFIN_20250650000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250650000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250650000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13643901,
+          "local_sha256": "7ea677f05eb64f41a92788ec4d1dc861702cb1ebcfda891c51f9ff0198be204e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250660000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250660000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250660000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13590460,
+          "local_sha256": "d88f9e6170c83dcff5bf06fd68040700f35f6700f8c4fb40c8122d95b09af37f"
+        },
+        {
+          "filename": "COD0MGXFIN_20250670000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250670000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250670000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13643677,
+          "local_sha256": "36c8d54b09fb9597ef602c3552bb14087b2a236d3680f52fb0ed6c8dc88cbe94"
+        },
+        {
+          "filename": "COD0MGXFIN_20250680000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250680000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250680000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13642405,
+          "local_sha256": "9e25f2166cc78b5600c2d8172bc45b667eb85b8835645e940d5cce7ac657a289"
+        },
+        {
+          "filename": "COD0MGXFIN_20250690000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250690000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250690000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13642597,
+          "local_sha256": "320e4a73efe56c3c619f68586f6340a9574fdfbbde216c24afda0aef764ad222"
+        },
+        {
+          "filename": "COD0MGXFIN_20250700000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250700000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250700000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13744764,
+          "local_sha256": "6d6e29e1ac630672c697c64072f0075b6e4406d0d6bc8be2e8682a042844ef33"
+        },
+        {
+          "filename": "COD0MGXFIN_20250710000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250710000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250710000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644193,
+          "local_sha256": "151d02a22c0563712dcfe1ade07c4eb82be69246e343da54dffdfb1a220249fc"
+        },
+        {
+          "filename": "COD0MGXFIN_20250720000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250720000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250720000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13645549,
+          "local_sha256": "f9ae0921caf8be806db7f50dcb2da5695a075327bebd4d0be1f4bb51e4fccf6e"
+        },
+        {
+          "filename": "COD0MGXFIN_20250730000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250730000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250730000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13643949,
+          "local_sha256": "15a948b2a81b4e257820798af7194f313b4278ad6f2cdd55bd294aa13321b6c6"
+        },
+        {
+          "filename": "COD0MGXFIN_20250740000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250740000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250740000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13642477,
+          "local_sha256": "9ab1f1cdf2b46a24491e1cac2bca9324aa2c88c73df3e64ff3b50d27c8b4bec5"
+        },
+        {
+          "filename": "COD0MGXFIN_20250750000_01D_30S_ATT.OBX.gz",
+          "target_relative_path": "data/external_reference/gnss_attitude/code_mgex_fin_20250115_20250316/COD0MGXFIN_20250750000_01D_30S_ATT.OBX.gz",
+          "source_url": "https://download.aiub.unibe.ch/CODE_MGEX/CODE/2025/COD0MGXFIN_20250750000_01D_30S_ATT.OBX.gz",
+          "local_bytes": 13644189,
+          "local_sha256": "fb60510fceda43ad7cb3ffb380b88de950b4e8cb30580932f099ffaa82c65ca3"
+        }
+      ]
+    },
+    {
+      "id": "SPICE_kernels",
+      "version": "CLPS SPICE collection v004; retain exact named kernel versions and load order",
+      "required_for": [
+        "physical antenna budget",
+        "raw precise geometry",
+        "dynamic receiver"
+      ],
+      "verification": "Official CLPS CK/FK/PCK/SPK/SCLK listings were inspected online 2026-09-30. File SHA256 values are current local inputs, not fresh binary downloads. LSK is the same archive-listed naif0012.tls.",
+      "source_page": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/",
+      "include_binary_in_release": false,
+      "files": [
+        {
+          "filename": "naif0012.tls",
+          "target_relative_path": "data/external_reference/spice/lsk/naif0012.tls",
+          "local_bytes": 5257,
+          "local_sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/lsk/naif0012.tls",
+          "load_order": 1
+        },
+        {
+          "filename": "pck00011.tpc",
+          "target_relative_path": "data/external_reference/spice/pck/pck00011.tpc",
+          "local_bytes": 131226,
+          "local_sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/pck/pck00011.tpc",
+          "load_order": 2
+        },
+        {
+          "filename": "earth_2025_250826_2125_predict.bpc",
+          "target_relative_path": "data/external_reference/spice/pck/earth_2025_250826_2125_predict.bpc",
+          "local_bytes": 19179520,
+          "local_sha256": "f5ed4d1f460dbcf40bf24f657ab9021718048e18fb723093bfd229066b4e3a49",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/pck/earth_2025_250826_2125_predict.bpc",
+          "load_order": 3
+        },
+        {
+          "filename": "earth_000101_260716_260419.bpc",
+          "target_relative_path": "data/external_reference/spice/pck/earth_000101_260716_260419.bpc",
+          "local_bytes": 5055488,
+          "local_sha256": "29d96386878342b19eb1671676a6c445f693a48e8942661be939ade8001925f9",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/pck/earth_000101_260716_260419.bpc",
+          "load_order": 4
+        },
+        {
+          "filename": "moon_pa_de440_200625.bpc",
+          "target_relative_path": "data/external_reference/spice/pck/moon_pa_de440_200625.bpc",
+          "local_bytes": 12863488,
+          "local_sha256": "60cd55aa401ea2ea97360636f567554bfe4e37bb829f901b4460a455dfaf783f",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/pck/moon_pa_de440_200625.bpc",
+          "load_order": 5
+        },
+        {
+          "filename": "moon_de440_250416.tf",
+          "target_relative_path": "data/external_reference/spice/fk/moon_de440_250416.tf",
+          "local_bytes": 19478,
+          "local_sha256": "a47c71e9c9f33796bdafb2c9d69a7ee447b6016ecad80f71cd6f3e479f9cf768",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/fk/moon_de440_250416.tf",
+          "load_order": 6
+        },
+        {
+          "filename": "earth_topo_201023.tf",
+          "target_relative_path": "data/external_reference/spice/fk/earth_topo_201023.tf",
+          "local_bytes": 63661,
+          "local_sha256": "85e32d0e226ab8cbce8cdcb4c0d3e259dcb10e372481af0989ddd63c523f2029",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/fk/earth_topo_201023.tf",
+          "load_order": 7
+        },
+        {
+          "filename": "earth_assoc_itrf93.tf",
+          "target_relative_path": "data/external_reference/spice/fk/earth_assoc_itrf93.tf",
+          "local_bytes": 7522,
+          "local_sha256": "aab7bbc19b8a69bad11988ee1b4812a3963812a03a029c2776863e680719b336",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/fk/earth_assoc_itrf93.tf",
+          "load_order": 8
+        },
+        {
+          "filename": "moon_assoc_me.tf",
+          "target_relative_path": "data/external_reference/spice/fk/moon_assoc_me.tf",
+          "local_bytes": 8468,
+          "local_sha256": "52c622043ce0447d575e59ee01642f1894921e68c10f934ceff065f362da6c1c",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/fk/moon_assoc_me.tf",
+          "load_order": 9
+        },
+        {
+          "filename": "de440s.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/de440s.bsp",
+          "local_bytes": 32726016,
+          "local_sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/de440s.bsp",
+          "load_order": 10
+        },
+        {
+          "filename": "earthstns_itrf93_201023.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/earthstns_itrf93_201023.bsp",
+          "local_bytes": 25600,
+          "local_sha256": "31a8cd1bed985fd15bf1a1cdd00416d0104e365e33672d746e704ef1b6157270",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/earthstns_itrf93_201023.bsp",
+          "load_order": 11
+        },
+        {
+          "filename": "clps_to19d_bgm1_v01.tf",
+          "target_relative_path": "data/external_reference/spice/fk/clps_to19d_bgm1_v01.tf",
+          "local_bytes": 33284,
+          "local_sha256": "1234050c8ccb19d3a6384251df1ae101e4d1d0ec918eb46d0e3760883a3aa44f",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/fk/clps_to19d_bgm1_v01.tf",
+          "load_order": 12
+        },
+        {
+          "filename": "clps_to19d_bgm1_v01.tsc",
+          "target_relative_path": "data/external_reference/spice/sclk/clps_to19d_bgm1_v01.tsc",
+          "local_bytes": 16250,
+          "local_sha256": "5c61850e01f12b6edc54a9b2850c0ced3fb3f85b2c7ac89e27af9b9dac0c42f9",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/sclk/clps_to19d_bgm1_v01.tsc",
+          "load_order": 13
+        },
+        {
+          "filename": "clps_to19d_bgm1_struct_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_struct_v01.bsp",
+          "local_bytes": 13312,
+          "local_sha256": "0383448d79487d2c1a55a7a0f758ba5996c4544383b4aea0a9006efd5dd7d2af",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_struct_v01.bsp",
+          "load_order": 14
+        },
+        {
+          "filename": "clps_to19d_bgm1_ls_250302_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_ls_250302_v01.bsp",
+          "local_bytes": 8192,
+          "local_sha256": "36308426e78c3f5fe0287161972ee542b321bc89bcae072bd9b59df446a8917a",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_ls_250302_v01.bsp",
+          "load_order": 15
+        },
+        {
+          "filename": "clps_to19d_bgm1_atls_250302_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_atls_250302_v01.bsp",
+          "local_bytes": 8192,
+          "local_sha256": "b0767d8fb9492329e360d6d9f563c8ef2c12d250bf42deed16f3851789a3c0f4",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_atls_250302_v01.bsp",
+          "load_order": 16
+        },
+        {
+          "filename": "clps_to19d_bgm1_cru_rec_250115_250302_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_cru_rec_250115_250302_v01.bsp",
+          "local_bytes": 23833600,
+          "local_sha256": "0f12c2f0709fcbb53f8c5bcfbdf6bd45bf0007b30b8ce5707b2927c91d361abe",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_cru_rec_250115_250302_v01.bsp",
+          "load_order": 17
+        },
+        {
+          "filename": "clps_to19d_bgm1_cru_pre_250302_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_cru_pre_250302_v01.bsp",
+          "local_bytes": 30720,
+          "local_sha256": "deb1dfb792f9a84c7ec16dbd0612673b059f0ee0d8029e8f0ffe13451ade5641",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_cru_pre_250302_v01.bsp",
+          "load_order": 18
+        },
+        {
+          "filename": "clps_to19d_bgm1_edl_rec_250302_v01.bsp",
+          "target_relative_path": "data/external_reference/spice/spk/clps_to19d_bgm1_edl_rec_250302_v01.bsp",
+          "local_bytes": 58368,
+          "local_sha256": "234b0b92328cc1c8aca169bdec990203bd3c37e6a276bcdaf826d8642233bf29",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/spk/clps_to19d_bgm1_edl_rec_250302_v01.bsp",
+          "load_order": 19
+        },
+        {
+          "filename": "clps_to19d_bgm1_cru_rec_250115_250310_v01.bc",
+          "target_relative_path": "data/external_reference/spice/ck/clps_to19d_bgm1_cru_rec_250115_250310_v01.bc",
+          "local_bytes": 77038592,
+          "local_sha256": "601398618a67ca14e3a7fee6c6006474defd7c9f44d2e9bd943393846c3620df",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/ck/clps_to19d_bgm1_cru_rec_250115_250310_v01.bc",
+          "load_order": 20
+        },
+        {
+          "filename": "clps_to19d_bgm1_edl_rec_250302_v01.bc",
+          "target_relative_path": "data/external_reference/spice/ck/clps_to19d_bgm1_edl_rec_250302_v01.bc",
+          "local_bytes": 1412096,
+          "local_sha256": "4d89dc9d740b8f9f40af25b7804a220b2fcab148c06ddbd94666aa97844bd19b",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/ck/clps_to19d_bgm1_edl_rec_250302_v01.bc",
+          "load_order": 21
+        },
+        {
+          "filename": "clps_to19d_bgm1_surf_ops_v01.bc",
+          "target_relative_path": "data/external_reference/spice/ck/clps_to19d_bgm1_surf_ops_v01.bc",
+          "local_bytes": 9216,
+          "local_sha256": "ba84a82f6620c4c3a2cbf273021e27f05d196282d303cdac7416a9efc11d0701",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/ck/clps_to19d_bgm1_surf_ops_v01.bc",
+          "load_order": 22
+        },
+        {
+          "filename": "clps_to19d_bgm1_hga_stowed_v01.bc",
+          "target_relative_path": "data/external_reference/spice/ck/clps_to19d_bgm1_hga_stowed_v01.bc",
+          "local_bytes": 9216,
+          "local_sha256": "59f66a52c78b88e1fd56d7d99e8ff9d4538be15b92af6fe6cfa4a8a772e32280",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/ck/clps_to19d_bgm1_hga_stowed_v01.bc",
+          "load_order": 23
+        },
+        {
+          "filename": "clps_to19d_bgm1_hga_mea_v01.bc",
+          "target_relative_path": "data/external_reference/spice/ck/clps_to19d_bgm1_hga_mea_v01.bc",
+          "local_bytes": 4687872,
+          "local_sha256": "4cd141eac30021c081ece05c4950cf5f9ea3c6d0b7acea0fad71daba44322f8c",
+          "include_binary_in_release": false,
+          "source_url": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/spice_kernels/ck/clps_to19d_bgm1_hga_mea_v01.bc",
+          "load_order": 24
+        }
+      ],
+      "note": "All 24 are demanded by the unmodified load_spice function. SPKs loaded for frame support must not be mislabeled as the dynamics-reconstructed receiver trajectory."
+    },
+    {
+      "id": "GPS_antenna_patterns",
+      "version": "IIR/IIR-M public factory release; IIF 2023 workbooks; GPS III SVN74-78 directivity release 2022-10-05",
+      "required_for": [
+        "physical antenna budget",
+        "directional-reference responses"
+      ],
+      "verification": "Exact hrefs resolved from preserved NAVCEN official catalog; current catalog rechecked online 2026-09-30. Binary files were not re-downloaded.",
+      "source_page": "https://www.navcen.uscg.gov/gps-technical-references",
+      "include_binary_in_release": false,
+      "files": [
+        {
+          "filename": "AppBAntennaPanelPatterns.pptx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/AppBAntennaPanelPatterns.pptx",
+          "local_bytes": 4062294,
+          "local_sha256": "24fe8163dbfd75ece9760c2884bb16f6739e60659af5fffd64282f0cf57e6cb6",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/ppt/gps/AppBAntennaPanelPatterns.pptx"
+        },
+        {
+          "filename": "GPS_III_SVN74_EC_Antenna_Patterns_Directivity.zip",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/GPS_III_SVN74_EC_Antenna_Patterns_Directivity.zip",
+          "local_bytes": 699352,
+          "local_sha256": "20a93a164da92074e5c15f2e09d29282cd35991a348c6bf031c98bc0944d65d5",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/GPS_ZIP/GPS_III_SVN74_EC_Antenna_Patterns_Directivity.zip"
+        },
+        {
+          "filename": "GPS_III_SVN75_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/GPS_III_SVN75_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "local_bytes": 696863,
+          "local_sha256": "960385f5c3d4992786c37fadaff096dd0e4dcf2492f3b4ba684fdd5da220f19e",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/GPS_ZIP/GPS_III_SVN75_EC_L1_2_5_Antenna_Patterns_Directivity.zip"
+        },
+        {
+          "filename": "GPS_III_SVN76_EC_L_2_5_Antenna_Patterns_Directivity.zip",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/GPS_III_SVN76_EC_L_2_5_Antenna_Patterns_Directivity.zip",
+          "local_bytes": 697250,
+          "local_sha256": "b090b70b62f6f203c0015d937895d17704f2e40b0b36505015bcce97f7d27985",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/GPS_ZIP/GPS_III_SVN76_EC_L_2_5_Antenna_Patterns_Directivity.zip"
+        },
+        {
+          "filename": "GPS_III_SVN77_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/GPS_III_SVN77_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "local_bytes": 697655,
+          "local_sha256": "b3b9deabf8e3b9913286d41a8debd90198863406ea788a5bcbe5e0958ca09282",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/GPS_ZIP/GPS_III_SVN77_EC_L1_2_5_Antenna_Patterns_Directivity.zip"
+        },
+        {
+          "filename": "GPS_III_SVN78_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/GPS_III_SVN78_EC_L1_2_5_Antenna_Patterns_Directivity.zip",
+          "local_bytes": 697318,
+          "local_sha256": "3abcb2e8a7bcf2392b30c23cc51150fe93377c103e07bf7cbd71ef47a9cf323f",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/GPS_ZIP/GPS_III_SVN78_EC_L1_2_5_Antenna_Patterns_Directivity.zip"
+        },
+        {
+          "filename": "SSC PA Final Assess 193 (2023 04-15) GPS IIF SVN67 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 193 (2023 04-15) GPS IIF SVN67 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3234077,
+          "local_sha256": "0f016384cd4dd08b2553065cb0ac056173d1964dfec5760e12267906b83834f9",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20193%20(2023%2004-15)%20GPS%20IIF%20SVN67%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 194 (2023 04-16)_Doc -  GPS IIF SVN68 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 194 (2023 04-16)_Doc -  GPS IIF SVN68 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3940557,
+          "local_sha256": "cfa2e4b50f07f54199f704dabd841550b969a8be79264e0f73a473ebaf35bd05",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20194%20(2023%2004-16)_Doc%20-%20%20GPS%20IIF%20SVN68%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 195 (2023 04-13)_Doc - GPS IIF SVN65 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 195 (2023 04-13)_Doc - GPS IIF SVN65 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3219550,
+          "local_sha256": "3ce5b6bce0f8cda770545f59b9f5d0ee61d2e8ab6721af8f3aa7cce45b95f750",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20195%20(2023%2004-13)_Doc%20-%20GPS%20IIF%20SVN65%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 196 (2023 04-12)_Doc - GPS IIF SVN64 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 196 (2023 04-12)_Doc - GPS IIF SVN64 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3914063,
+          "local_sha256": "d54e3848243b254df4fc9eecaa61811358199fe3ada96f74d8110e4a023be20d",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20196%20(2023%2004-12)_Doc%20-%20GPS%20IIF%20SVN64%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 198 (2023 04-11)_Doc - GPS IIF SVN63 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 198 (2023 04-11)_Doc - GPS IIF SVN63 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3920292,
+          "local_sha256": "9d26a16cfc9b677ffac76aa1711ec30262afaa789ad54a32f90e090bb3bcc159",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20198%20(2023%2004-11)_Doc%20-%20GPS%20IIF%20SVN63%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 199 (2023 04-10)_Doc - GPS IIF SVN62 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 199 (2023 04-10)_Doc - GPS IIF SVN62 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 7021680,
+          "local_sha256": "9e1bdebaf03d6c650572fb38d847f6fddbda7d50cceadb437d88e952d1a5f9e0",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20199%20(2023%2004-10)_Doc%20-%20GPS%20IIF%20SVN62%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 203 (2023 04-17)_Document - GPS IIF SVN69 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 203 (2023 04-17)_Document - GPS IIF SVN69 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3947657,
+          "local_sha256": "83f0e84f695341710f0f833f4927b8ae1ad99c993430c136153e781fb6abd421",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20203%20(2023%2004-17)_Document%20-%20GPS%20IIF%20SVN69%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 206 (2023 04-18)_Doc GPS IIF SVN70 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 206 (2023 04-18)_Doc GPS IIF SVN70 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3939480,
+          "local_sha256": "4ee25e899d77906c7967f043538623a6fc358a79dc29988815e04213adfbdbfa",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20206%20(2023%2004-18)_Doc%20GPS%20IIF%20SVN70%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 207 (2023 04-19)_Document - GPS IIF SVN71 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 207 (2023 04-19)_Document - GPS IIF SVN71 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3935573,
+          "local_sha256": "2a242e97e97cbc0927fe0d1ab1fa3ee2aefcd67e66f726ee01288d26333702b1",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20207%20(2023%2004-19)_Document%20-%20GPS%20IIF%20SVN71%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 208 (2023 04-20)_Document - GPS IIF SVN72 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 208 (2023 04-20)_Document - GPS IIF SVN72 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3682176,
+          "local_sha256": "64743905890f30ab13a9d883915b6f52080d41608c41bc15d7e8e5104beb2e0f",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20208%20(2023%2004-20)_Document%20-%20GPS%20IIF%20SVN72%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 209 (2023 04-21)_Doc - GPS IIF SVN73 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 209 (2023 04-21)_Doc - GPS IIF SVN73 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3670151,
+          "local_sha256": "7ee10c9ccfccc71ab756429ed69b44365b074512ee202475496d84538f218d70",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20209%20(2023%2004-21)_Doc%20-%20GPS%20IIF%20SVN73%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        },
+        {
+          "filename": "SSC PA Final Assess 214 (2023 04-14)_Docume GPS IIF SVN66 Antenna Patterns - L1, L2, and L5.xlsx",
+          "target_relative_path": "data/external_reference/gnss_antenna/gps/SSC PA Final Assess 214 (2023 04-14)_Docume GPS IIF SVN66 Antenna Patterns - L1, L2, and L5.xlsx",
+          "local_bytes": 3208458,
+          "local_sha256": "261e45dee260fffb54e8510da32cf93fb0eeb66da462a2cdea785b3cafae41df",
+          "include_binary_in_release": false,
+          "source_url": "https://www.navcen.uscg.gov/sites/default/files/pdf/gps/sigspec/SSC%20PA%20Final%20Assess%20214%20(2023%2004-14)_Docume%20GPS%20IIF%20SVN66%20Antenna%20Patterns%20-%20L1%2C%20L2%2C%20and%20L5.xlsx"
+        }
+      ],
+      "note": "Original parser consumes embedded XLSX in AppB PPTX and GPS III ZIP/PDF products. The alternate extracted raw-XLSX directory is not additionally needed. Preserve original proxy behavior for uncovered/partial satellites."
+    }
+  ],
+  "other_public_inputs": [
+    {
+      "id": "Galileo_GRAP",
+      "filename": "GRAP_metadata.zip",
+      "target_relative_path": "data/external_reference/gnss_antenna/galileo/GRAP_metadata.zip",
+      "local_bytes": 5594834,
+      "local_sha256": "3e69df4713e472898008221305221c5e4f6c2ab13107b8f487c5bdbcb5b81a47",
+      "include_binary_in_release": false,
+      "source_url": "https://joint-research-centre.ec.europa.eu/document/download/bbba68eb-d8fb-417e-acfd-1606de7816c4_en?filename=GRAP_metadata.zip",
+      "version": "GRAP Issue 1.0, May 2024",
+      "needed_for": "Rebuild parsed Galileo E1/E5a grids; ZIP members GRAP_File_E1_.xlsx and GRAP_File_E5a_.xlsx",
+      "verification": "Official endpoint returned application/zip; exact URL recorded in local DataInventory."
+    },
+    {
+      "id": "ANTEX_mapping_source",
+      "filename": "igs20_2417_all_gnss.atx.gz",
+      "target_relative_path": "data/external_reference/mapping/igs20_2417_all_gnss.atx.gz",
+      "local_bytes": 6451567,
+      "local_sha256": "d9de06212745f5fab3068da8be76112b50b8a4f3ee9f94e63b9f10d4024d470c",
+      "include_binary_in_release": false,
+      "source_url": "https://www.gsc-europa.eu/sites/default/files/sites/all/files/igs20_2417.atx.gz",
+      "version": "IGS20 2417, official GSC snapshot active from 2026-05-13",
+      "needed_for": "Only needed to rebuild the supplied active PRN/SVN/block mapping; downloaded name igs20_2417.atx.gz is renamed locally",
+      "verification": "Exact href found in preserved official GSC metadata page; live binary not fetched."
+    },
+    {
+      "id": "LuGRE_Fig3_source",
+      "filename": "LuGRE_Fig3_HGA_gain_patterns_official_large.jpg",
+      "target_relative_path": "data/external_reference/lugre_antenna/LuGRE_Fig3_HGA_gain_patterns_official_large.jpg",
+      "local_bytes": 80074,
+      "local_sha256": "5720d96ac8d62afa3b463e75a7f0594d831a56828f479b21fe66a768ad67faee",
+      "include_binary_in_release": false,
+      "source_url": "https://navi.ion.org/content/navi/73/1/navi.756/F3.large.jpg",
+      "version": "Parker et al., NAVIGATION 73(1), 2026, DOI 10.33012/navi.756",
+      "needed_for": "Only needed to redigitize receive antenna envelope",
+      "verification": "Official URL from local README; publisher returned 403 in this pass."
+    },
+    {
+      "id": "LuGRE_article_source",
+      "filename": "LuGRE_first_results_NAVIGATION_2026_official.pdf",
+      "target_relative_path": "data/external_reference/lugre_antenna/LuGRE_first_results_NAVIGATION_2026_official.pdf",
+      "local_bytes": 27183250,
+      "local_sha256": "33de9ae0b1b46aab3ac930707c8b6395791c75a57d54fd05eda5ca21bc724fc8",
+      "include_binary_in_release": false,
+      "source_url": "https://navi.ion.org/content/navi/73/1/navi.756.full.pdf",
+      "version": "Parker et al., NAVIGATION 73(1), 2026, DOI 10.33012/navi.756",
+      "needed_for": "Only needed to redigitize Fig11 thermal min/mean/max, Fig12 surface thermal series, and published discrepancy",
+      "verification": "Official URL from local README; publisher returned 403 in this pass."
+    },
+    {
+      "id": "GRAIL_gravity",
+      "filename": "gggrx_1200a_sha.tab",
+      "target_relative_path": "data/external_reference/lunar_gravity/gggrx_1200a_sha.tab",
+      "local_bytes": 65103632,
+      "local_sha256": "fa22912f8d6aeec57d2f6d1082e0c649242356510c1cce0683c56914c3b9ec03",
+      "include_binary_in_release": false,
+      "source_url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_1200a_sha.tab",
+      "version": "GRGM1200A final, product release 2016-04-01; model uses degree/order 8",
+      "needed_for": "Dynamic lunar orbit reconstruction",
+      "verification": "Public label read online; exact download URL from local source manifest.",
+      "download_full_bytes": 88059844,
+      "download_full_sha256": "fa04c3dce9376948ad243f3df74144e2602f12d183ea4d179604ed0a79da7ded",
+      "original_local_input_is_high_degree_truncated": true,
+      "header_and_degree_8_coefficients_identical_to_full": true,
+      "note": "Whole-file hash of public full download differs from old truncated input; this audit confirmed the header and used degree<=8 rows are identical. Do not require the truncated-file hash for a fresh complete download."
+    },
+    {
+      "id": "GRAIL_label",
+      "filename": "gggrx_1200a_sha.lbl",
+      "target_relative_path": "data/external_reference/lunar_gravity/gggrx_1200a_sha.lbl",
+      "local_bytes": 10665,
+      "local_sha256": "c478c251e6e6bdd9fe130964e087a933c5db7f544b3f851fecd3e7a6f5729374",
+      "include_binary_in_release": false,
+      "source_url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_1200a_sha.lbl",
+      "version": "GRGM1200A label",
+      "needed_for": "Gravity metadata only",
+      "verification": "Public label read online 2026-09-30."
+    }
+  ],
+  "optional_broadcast_seed": {
+    "required_for": "Only the historical pre-SP3 seed builder build_link_geometry_features.py. NOT an input to the final SP3 geometry if the archived cn0_physics_features_sp3_tlm_exact.csv is supplied.",
+    "version": "Daily BKG WRD mixed RINEX navigation; source dates plus adjacent days",
+    "verification": "URLs follow the exact brdc_url implementation; local file hashes verified; live BKG binaries not requested.",
+    "files": [
+      {
+        "filename": "BRDC00WRD_R_20250140000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250140000_01D_MN.rnx.gz",
+        "local_bytes": 373146,
+        "local_sha256": "eefda9b32496434b842ac0743ebbbc2f2a2612687ea5fc5c67e1d3e5d0e50aaf",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/014/BRDC00WRD_R_20250140000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250150000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250150000_01D_MN.rnx.gz",
+        "local_bytes": 506016,
+        "local_sha256": "ccf8a237fafa7571ed9c72bab56083cdda57b02ba5a4450e32afe06023a0cad4",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/015/BRDC00WRD_R_20250150000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250160000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250160000_01D_MN.rnx.gz",
+        "local_bytes": 822583,
+        "local_sha256": "d317eb0618a05fae9084812b7a18ef9f70222a803afa3f780c6b3ff06f6e010a",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/016/BRDC00WRD_R_20250160000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250170000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250170000_01D_MN.rnx.gz",
+        "local_bytes": 804081,
+        "local_sha256": "0daa6d0a7555b6cd5539460e1a9f5504184fdeb4b1279e36b47f9d19c8454323",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/017/BRDC00WRD_R_20250170000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250180000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250180000_01D_MN.rnx.gz",
+        "local_bytes": 796101,
+        "local_sha256": "f7e3ef6d65d909daf23467e1c4e82342d858589075019eabec063ff0b7f3bcfb",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/018/BRDC00WRD_R_20250180000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250190000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250190000_01D_MN.rnx.gz",
+        "local_bytes": 811989,
+        "local_sha256": "a5a936875dd717cd74b4a7d1185ff9972a3f448cfa268025030d2e152aa611fe",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/019/BRDC00WRD_R_20250190000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250200000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250200000_01D_MN.rnx.gz",
+        "local_bytes": 817013,
+        "local_sha256": "c9e5930024bf2060094cf0a40d7bdd5b7ee387a9cd9ed024b695da4e003619a7",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/020/BRDC00WRD_R_20250200000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250240000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250240000_01D_MN.rnx.gz",
+        "local_bytes": 805831,
+        "local_sha256": "d79579d32dc4b38a93bf99b5436f7b025fcc32ace320577c2bc5a4d4cbd7b5c1",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/024/BRDC00WRD_R_20250240000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250250000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250250000_01D_MN.rnx.gz",
+        "local_bytes": 769566,
+        "local_sha256": "beab7669f5a5c46ffcb63a62f561edca4f8bc409215ca3132aa9952081ea8aef",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/025/BRDC00WRD_R_20250250000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250260000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250260000_01D_MN.rnx.gz",
+        "local_bytes": 415083,
+        "local_sha256": "a6f9f12a5ef957acb4ee6a52d06832d063c812c2b5955656a343dbe8c33a4c87",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/026/BRDC00WRD_R_20250260000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250290000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250290000_01D_MN.rnx.gz",
+        "local_bytes": 567281,
+        "local_sha256": "a1d7383d3df75f2b248be81c4759f9ec836a5e089c7fc964a2bb7e3dcab7286f",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/029/BRDC00WRD_R_20250290000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250300000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250300000_01D_MN.rnx.gz",
+        "local_bytes": 814237,
+        "local_sha256": "42df1808385841db3cceb10a979a102a413da7ca077f054bd882387f1e94254a",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/030/BRDC00WRD_R_20250300000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250310000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250310000_01D_MN.rnx.gz",
+        "local_bytes": 174707,
+        "local_sha256": "9920c1bfd54f25c0a9dd74988a6436221e6b934b32750865944df0d5013cad9c",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/031/BRDC00WRD_R_20250310000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250330000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250330000_01D_MN.rnx.gz",
+        "local_bytes": 796720,
+        "local_sha256": "0f020dfd2a695c9a9494b1637f7322f354f8274d5641fe65988943c9c77621f2",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/033/BRDC00WRD_R_20250330000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250340000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250340000_01D_MN.rnx.gz",
+        "local_bytes": 532151,
+        "local_sha256": "811d706fd65a4c3a466e38ee8359a962d053d571937a7950534c81dc759477ff",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/034/BRDC00WRD_R_20250340000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250350000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250350000_01D_MN.rnx.gz",
+        "local_bytes": 799367,
+        "local_sha256": "ddc83acb8f36c344235dac2fc89bf3a65aa776fd64b5dab122bf22fc54470f27",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/035/BRDC00WRD_R_20250350000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250360000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250360000_01D_MN.rnx.gz",
+        "local_bytes": 387320,
+        "local_sha256": "bba0981a7fb16bebfa18ae3f399c6e5983d97423c57ec7933bf4289cc53a562d",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/036/BRDC00WRD_R_20250360000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250370000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250370000_01D_MN.rnx.gz",
+        "local_bytes": 804386,
+        "local_sha256": "c91c687ebcb34c6d32e63ee1b363be21ed2441b7f47f2f8e803e927c3ac69a3d",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/037/BRDC00WRD_R_20250370000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250380000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250380000_01D_MN.rnx.gz",
+        "local_bytes": 808140,
+        "local_sha256": "e1b3620084eed993b554837c7872c634c5f5d02d31678b21adb358b5c1ecedb0",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/038/BRDC00WRD_R_20250380000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250390000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250390000_01D_MN.rnx.gz",
+        "local_bytes": 808840,
+        "local_sha256": "e9ebb3a4e8e59442a221e74aa8e897defa35631b42bed44af93e102e35eec40b",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/039/BRDC00WRD_R_20250390000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250400000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250400000_01D_MN.rnx.gz",
+        "local_bytes": 810975,
+        "local_sha256": "f715fefa995393c0c81958508b3bfadb865f928f6f8aac80a11f615f7df3b0e9",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/040/BRDC00WRD_R_20250400000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250420000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250420000_01D_MN.rnx.gz",
+        "local_bytes": 813074,
+        "local_sha256": "9362b8b791cf33c6d787c32563b0817df14b49683d85d8b5f07f0d02aaae48d4",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/042/BRDC00WRD_R_20250420000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250430000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250430000_01D_MN.rnx.gz",
+        "local_bytes": 802761,
+        "local_sha256": "14cbe9c6a24a4a91bcf6254cdb281a466f197d30a73fe1bab4f6afb936f88262",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/043/BRDC00WRD_R_20250430000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250440000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250440000_01D_MN.rnx.gz",
+        "local_bytes": 558329,
+        "local_sha256": "a76633d838c69f68e0cc0ebe5b42bce2a3debd09537c7ef05eda98175aa615ba",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/044/BRDC00WRD_R_20250440000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250450000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250450000_01D_MN.rnx.gz",
+        "local_bytes": 763909,
+        "local_sha256": "abb015ab807405a9cb14bd7ec382f8ae6f188b9aa4b51ca2e0b2def58a94ec09",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/045/BRDC00WRD_R_20250450000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250460000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250460000_01D_MN.rnx.gz",
+        "local_bytes": 789563,
+        "local_sha256": "d36825c4d9eb89979ca163dc1cf360592e074767ee53876cbab5a7fba535e55c",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/046/BRDC00WRD_R_20250460000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250490000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250490000_01D_MN.rnx.gz",
+        "local_bytes": 1404226,
+        "local_sha256": "135686f6dbed83953cc6719b9a94c1590f3ba81146e15c73055b168266ff13e6",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/049/BRDC00WRD_R_20250490000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250500000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250500000_01D_MN.rnx.gz",
+        "local_bytes": 1410014,
+        "local_sha256": "215d52d9e1f40ea0ed4fb833fd039e2db7600eb094f850819cdbe0cfacce6924",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/050/BRDC00WRD_R_20250500000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250510000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250510000_01D_MN.rnx.gz",
+        "local_bytes": 1320313,
+        "local_sha256": "7adfeebb28a14e0acc551685d256686cdc30086928e2853c79ea735c9efce539",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/051/BRDC00WRD_R_20250510000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250570000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250570000_01D_MN.rnx.gz",
+        "local_bytes": 1310759,
+        "local_sha256": "961743a9fdfa98980d1b71156fe3213f56a4bece1fa20fe09572a49a3e3b3912",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/057/BRDC00WRD_R_20250570000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250580000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250580000_01D_MN.rnx.gz",
+        "local_bytes": 1351444,
+        "local_sha256": "bac0e4f016295b1d96f3f258990764a77656aa949c60e3f00136711cf241818d",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/058/BRDC00WRD_R_20250580000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250590000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250590000_01D_MN.rnx.gz",
+        "local_bytes": 1322782,
+        "local_sha256": "5777a342a81a05f335b8e06ed56c388252488c9e1c8bc16f5feebb68e840a75b",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/059/BRDC00WRD_R_20250590000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250610000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250610000_01D_MN.rnx.gz",
+        "local_bytes": 1335410,
+        "local_sha256": "de5fb339df527c153e5d5a3a38d6cba1c00ae13210ae5a8b2de63e0bb4b137ce",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/061/BRDC00WRD_R_20250610000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250620000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250620000_01D_MN.rnx.gz",
+        "local_bytes": 1232331,
+        "local_sha256": "17ae5d349bea0930e34ddeab2d24ed15e42a3a89c142337db5006cd405ca0b18",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/062/BRDC00WRD_R_20250620000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250630000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250630000_01D_MN.rnx.gz",
+        "local_bytes": 1240370,
+        "local_sha256": "52b746f79f7fd79037207191e3e880af0e437a04d4862bb9e890a028fa1e1cc4",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/063/BRDC00WRD_R_20250630000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250640000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250640000_01D_MN.rnx.gz",
+        "local_bytes": 1267715,
+        "local_sha256": "6f9c520d59262da0e969b3684e98ca9ef0e1beec91deedb9cc533621fbe549a7",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/064/BRDC00WRD_R_20250640000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250720000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250720000_01D_MN.rnx.gz",
+        "local_bytes": 1296913,
+        "local_sha256": "761e882129f6b708a56e158658536a4e96c2302d4bc7845e21f4adb192c16573",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/072/BRDC00WRD_R_20250720000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250730000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250730000_01D_MN.rnx.gz",
+        "local_bytes": 1335297,
+        "local_sha256": "6d4758664cc22192e383410bdce6db6eeedf39b16b532b3a15cf0aeb920471a0",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/073/BRDC00WRD_R_20250730000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250740000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250740000_01D_MN.rnx.gz",
+        "local_bytes": 1340928,
+        "local_sha256": "a2c2e9f439d0b82fdf8a14d26ff3cf2d01ea76a0fb0b2a487e4b4de97a9048e5",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/074/BRDC00WRD_R_20250740000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250750000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250750000_01D_MN.rnx.gz",
+        "local_bytes": 1320235,
+        "local_sha256": "d1a1afeabe7cc87ba7819756eb82f487d0067275b86adfc4dcaf8d06635ca377",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/075/BRDC00WRD_R_20250750000_01D_MN.rnx.gz"
+      },
+      {
+        "filename": "BRDC00WRD_R_20250760000_01D_MN.rnx.gz",
+        "target_relative_path": "data/external_reference/nav/BRDC00WRD_R_20250760000_01D_MN.rnx.gz",
+        "local_bytes": 1328073,
+        "local_sha256": "446496f048658d624a081aebeb551f75705f1a91cd4e78fdc768eb6074d13ced",
+        "include_binary_in_release": false,
+        "source_url": "https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2025/076/BRDC00WRD_R_20250760000_01D_MN.rnx.gz"
+      }
+    ]
+  },
+  "wgc_generated_inputs": {
+    "not_a_static_download": true,
+    "service_urls": [
+      "https://wgc.jpl.nasa.gov:8443/webgeocalc/",
+      "https://wgc2.jpl.nasa.gov:8443/webgeocalc/"
+    ],
+    "api_base_from_manifest": "https://wgc2.jpl.nasa.gov:8443/webgeocalc/api",
+    "query_manifest": "D:/月球导航/data/trajectory/wgc_lugre_target_earth_observer_by_tlm/download_manifest.json",
+    "parameters": {
+      "kernel_set": "CLPS",
+      "historical_kernel_set_id": 8,
+      "target": "BGM1_LUGRE",
+      "observer": "EARTH",
+      "frame": "J2000",
+      "aberration_correction": "NONE",
+      "state": "RECTANGULAR",
+      "time_system": "UTC",
+      "time_step_seconds": 1
+    },
+    "expected_derived_output": {
+      "source": "D:/月球导航/data/trajectory/wgc_lugre_target_earth_observer_by_tlm/wgc_state_vectors_lugre_target_earth_observer_by_tlm_all.csv",
+      "bytes": 101253076,
+      "sha256": "73bc862556f55929e76da3f8b1760a8a4b22fb21ebfd35decd79373d2835c973"
+    },
+    "warning": "A current named CLPS set is not a version pin. Reuse the explicit archived kernel versions above for stable local regeneration. Existing download_wgc_state_vectors.py defaults to the opposite target/observer (EARTH relative to BGM1_LUGRE); it must not be advertised as a direct one-command generator of the forward-state CSV. The 101 MB 1Hz WGC CSV is excluded from a minimal release when the 21 MB final geometry feature table is provided.",
+    "dynamic_reference": {
+      "source": "D:/月球导航/table/receiver_state_vectors_wgc_new.csv",
+      "bytes": 13700294,
+      "sha256": "9c75693bd6ac1fc0c146269570847bb39961088837ebe62a8215a57ae2844c44"
+    },
+    "dynamic_reference_warning": "WGC_new XLS originals have no verified stable per-file public download URLs or complete archived original query settings. The standardized derived CSV can be released if full dynamics reproduction is intended; do not invent URLs for WGC_StateVector_*.xls."
+  },
+  "minimum_physics_rebuild": {
+    "recommended_level": "Recompute original physical budget from the archived derived final geometry features; no raw 1Hz/WGC cache needed.",
+    "derived_seed": {
+      "source": "D:/月球导航/table/cn0_physics_features_sp3_tlm_exact.csv",
+      "bytes": 21065136,
+      "sha256": "191917170011d9299a70f10e39e480791635abbbdf1ae6f0f8f146b45587ad42"
+    },
+    "source_scripts": [
+      {
+        "source": "D:/月球导航/script/build_cn0_physics_baseline.py",
+        "relative_path": "script/build_cn0_physics_baseline.py",
+        "local_imports": [],
+        "sha256": "5e010d32ef87d0bbe91a512ca891d9f15f84ef07fc26c62e6f7374e60b702e74"
+      },
+      {
+        "source": "D:/月球导航/script/build_cn0_attitude_2d_gain.py",
+        "relative_path": "script/build_cn0_attitude_2d_gain.py",
+        "local_imports": [
+          "gps_iif_antenna_patterns",
+          "orbex_attitude"
+        ],
+        "sha256": "41e5c4d8e6fd6bf3f736f47f9c00f7a7840404a9ca6ae1ce97e5e1c3fecd0ed9"
+      },
+      {
+        "source": "D:/月球导航/script/gps_iif_antenna_patterns.py",
+        "relative_path": "script/gps_iif_antenna_patterns.py",
+        "local_imports": [],
+        "sha256": "6c88bd983658303d33cb3c04b7959a73ad8561145e87dc8e7125d2256e9b89f0"
+      },
+      {
+        "source": "D:/月球导航/script/orbex_attitude.py",
+        "relative_path": "script/orbex_attitude.py",
+        "local_imports": [],
+        "sha256": "5834cf7d1c98e4eaa07bcf428555b3016167210b4f6739adc4c0272a5a91dcf7"
+      },
+      {
+        "source": "D:/月球导航/script/build_cn0_constellation_physics_baseline.py",
+        "relative_path": "script/build_cn0_constellation_physics_baseline.py",
+        "local_imports": [],
+        "sha256": "7795101b07b5d5e58e9e37865f08454562386f0bd4c4d7b8a972f961716e7d03"
+      },
+      {
+        "source": "D:/月球导航/script/build_cn0_constellation_physics_baseline_sp3_tlm_exact.py",
+        "relative_path": "script/build_cn0_constellation_physics_baseline_sp3_tlm_exact.py",
+        "local_imports": [
+          "build_cn0_constellation_physics_baseline"
+        ],
+        "sha256": "6b68187acb013ba1f8ad11a53ec7ea2e8a6db01580497684b4e5a710bcb96c06"
+      },
+      {
+        "source": "D:/月球导航/script/prepare_gnss_transmit_physics_inputs.py",
+        "relative_path": "script/prepare_gnss_transmit_physics_inputs.py",
+        "local_imports": [],
+        "sha256": "1c6085a6a90b109999d699a3db5331ca8018001a76adae3d4c41b5359b125e75"
+      }
+    ],
+    "ordered_commands": [
+      "python script/prepare_gnss_transmit_physics_inputs.py",
+      "python script/build_cn0_physics_baseline.py --input table/cn0_physics_features_sp3_tlm_exact.csv --output-dir table/algorithm/cn0_physics_baseline_sp3_tlm_exact",
+      "python script/build_cn0_attitude_2d_gain.py --input table/cn0_physics_features_sp3_tlm_exact.csv --output-dir table/algorithm/cn0_attitude_2d_gain_sp3_tlm_exact",
+      "python script/build_cn0_constellation_physics_baseline_sp3_tlm_exact.py"
+    ],
+    "public_requirements": [
+      "CODE_ORBEX",
+      "SPICE_kernels",
+      "GPS_antenna_patterns",
+      "Galileo_GRAP"
+    ],
+    "derived_requirements": [
+      "data/external_reference/mapping/active_prn_svn_block_20250115_20250316.csv",
+      "data/external_reference/lugre_antenna/LuGRE_Fig3_gain_outer_envelope_digitized.csv"
+    ],
+    "verification_status": "Source and local import closure audited only; these physical rebuild commands were not re-executed in this task. Root separately verified main-model refit/predict from the saved feature cache.",
+    "additional_libraries": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "spiceypy",
+      "openpyxl",
+      "pypdf"
+    ],
+    "output_expected": "table/algorithm/cn0_constellation_physics_baseline_sp3_tlm_exact/cn0_constellation_physics_predictions.csv"
+  },
+  "extended_physics_closures": {
+    "observed_geometry_and_budget": {
+      "entrypoints": [
+        "rebuild_cn0_geometry_sp3_tlm_exact",
+        "build_cn0_physics_baseline",
+        "build_cn0_attitude_2d_gain",
+        "build_cn0_constellation_physics_baseline_sp3_tlm_exact",
+        "prepare_gnss_transmit_physics_inputs"
+      ],
+      "files": [
+        {
+          "source": "D:/月球导航/script/prepare_gnss_transmit_physics_inputs.py",
+          "relative_path": "script/prepare_gnss_transmit_physics_inputs.py",
+          "local_imports": [],
+          "sha256": "1c6085a6a90b109999d699a3db5331ca8018001a76adae3d4c41b5359b125e75"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_constellation_physics_baseline_sp3_tlm_exact.py",
+          "relative_path": "script/build_cn0_constellation_physics_baseline_sp3_tlm_exact.py",
+          "local_imports": [
+            "build_cn0_constellation_physics_baseline"
+          ],
+          "sha256": "6b68187acb013ba1f8ad11a53ec7ea2e8a6db01580497684b4e5a710bcb96c06"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_constellation_physics_baseline.py",
+          "relative_path": "script/build_cn0_constellation_physics_baseline.py",
+          "local_imports": [],
+          "sha256": "7795101b07b5d5e58e9e37865f08454562386f0bd4c4d7b8a972f961716e7d03"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_attitude_2d_gain.py",
+          "relative_path": "script/build_cn0_attitude_2d_gain.py",
+          "local_imports": [
+            "gps_iif_antenna_patterns",
+            "orbex_attitude"
+          ],
+          "sha256": "41e5c4d8e6fd6bf3f736f47f9c00f7a7840404a9ca6ae1ce97e5e1c3fecd0ed9"
+        },
+        {
+          "source": "D:/月球导航/script/orbex_attitude.py",
+          "relative_path": "script/orbex_attitude.py",
+          "local_imports": [],
+          "sha256": "5834cf7d1c98e4eaa07bcf428555b3016167210b4f6739adc4c0272a5a91dcf7"
+        },
+        {
+          "source": "D:/月球导航/script/gps_iif_antenna_patterns.py",
+          "relative_path": "script/gps_iif_antenna_patterns.py",
+          "local_imports": [],
+          "sha256": "6c88bd983658303d33cb3c04b7959a73ad8561145e87dc8e7125d2256e9b89f0"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_physics_baseline.py",
+          "relative_path": "script/build_cn0_physics_baseline.py",
+          "local_imports": [],
+          "sha256": "5e010d32ef87d0bbe91a512ca891d9f15f84ef07fc26c62e6f7374e60b702e74"
+        },
+        {
+          "source": "D:/月球导航/script/rebuild_cn0_geometry_sp3_tlm_exact.py",
+          "relative_path": "script/rebuild_cn0_geometry_sp3_tlm_exact.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain",
+            "build_link_geometry_features",
+            "build_plot_wgc_multiband_cn0"
+          ],
+          "sha256": "58a47271b3e50542fb7d8af2cc0b1624398991454d3fd7487ff91ef4bf945b2a"
+        },
+        {
+          "source": "D:/月球导航/script/build_link_geometry_features.py",
+          "relative_path": "script/build_link_geometry_features.py",
+          "local_imports": [
+            "inspect_statevectors"
+          ],
+          "sha256": "8f1dd35c8be0023337bde0ab29a4d7ca35624ec7fd39d3b8f33cde353f02754e"
+        },
+        {
+          "source": "D:/月球导航/script/inspect_statevectors.py",
+          "relative_path": "script/inspect_statevectors.py",
+          "local_imports": [],
+          "sha256": "ff454af9fab0277512a18471037763abe68c7bbaf5b7d55be3a7657476fc62cd"
+        },
+        {
+          "source": "D:/月球导航/script/build_plot_wgc_multiband_cn0.py",
+          "relative_path": "script/build_plot_wgc_multiband_cn0.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain",
+            "build_cn0_constellation_physics_baseline",
+            "gps_iif_antenna_patterns",
+            "orbex_attitude",
+            "plot_wgc_reference_time_cn0_best_model",
+            "simulate_continuous_cn0_reference",
+            "train_cn0_general_residual_models"
+          ],
+          "sha256": "d287820ab1c6aeb130b6b4dc8319dcc50642660ab3f94e6cc8124fa18865bc19"
+        },
+        {
+          "source": "D:/月球导航/script/plot_wgc_reference_time_cn0_best_model.py",
+          "relative_path": "script/plot_wgc_reference_time_cn0_best_model.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain",
+            "build_cn0_constellation_physics_baseline",
+            "simulate_continuous_cn0_reference",
+            "train_cn0_constellation_residual_models"
+          ],
+          "sha256": "3b1c70e8b6790e80b738632d00bda412ac5424e0db6f74925afb4cdf063d0a59"
+        },
+        {
+          "source": "D:/月球导航/script/simulate_continuous_cn0_reference.py",
+          "relative_path": "script/simulate_continuous_cn0_reference.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain"
+          ],
+          "sha256": "aaf73ba7cdc29f85e51b3dbbd9a99e38741c619c21dc7d16f72491cabb084abb"
+        },
+        {
+          "source": "D:/月球导航/script/train_cn0_constellation_residual_models.py",
+          "relative_path": "script/train_cn0_constellation_residual_models.py",
+          "local_imports": [],
+          "sha256": "d3438bc3267b59dd9d0f865ac07b394a2f287ba1ebcab3fbd89cbf18ffc4ba70"
+        },
+        {
+          "source": "D:/月球导航/script/train_cn0_general_residual_models.py",
+          "relative_path": "script/train_cn0_general_residual_models.py",
+          "local_imports": [],
+          "sha256": "420d283129d4a7895b21e31c9d9b206a90f51f5799bec3482d21bdb755f6b942"
+        }
+      ],
+      "missing_entrypoints": []
+    },
+    "dynamic_receiver": {
+      "entrypoints": [
+        "build_lugre_dynamic_receiver_trajectory_1min",
+        "run_lugre_dynamic_inversion",
+        "run_lugre_lunar_orbit_inversion",
+        "run_lugre_surface_fixed_site_geometry",
+        "plot_all_stage_orbit_geometry_trajectory"
+      ],
+      "files": [
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/plot_all_stage_orbit_geometry_trajectory.py",
+          "relative_path": "script/algorithm/orbit_dynamics/plot_all_stage_orbit_geometry_trajectory.py",
+          "local_imports": [],
+          "sha256": "e1e6edd6601e97fd69cff3bb908a1644931d2336d82504f9682a2fc56fb5b266"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/run_lugre_surface_fixed_site_geometry.py",
+          "relative_path": "script/algorithm/orbit_dynamics/run_lugre_surface_fixed_site_geometry.py",
+          "local_imports": [],
+          "sha256": "da3706f7a1fc87d17b428470d35bcfbd4555fb31b2fd1ea357fc02d8c93399c3"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/run_lugre_lunar_orbit_inversion.py",
+          "relative_path": "script/algorithm/orbit_dynamics/run_lugre_lunar_orbit_inversion.py",
+          "local_imports": [
+            "orbit_models"
+          ],
+          "sha256": "05e086e74e1481c7e0deb843055e43511496073749a1ea9901b01719048dd78c"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/orbit_models.py",
+          "relative_path": "script/algorithm/orbit_dynamics/orbit_models.py",
+          "local_imports": [],
+          "sha256": "7a266c8e224ffe5f8db2b1cf6dfb5ac0dfaf73149de0bceed0d2c16fc4ca8818"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/run_lugre_dynamic_inversion.py",
+          "relative_path": "script/algorithm/orbit_dynamics/run_lugre_dynamic_inversion.py",
+          "local_imports": [
+            "orbit_models"
+          ],
+          "sha256": "00f7e30d551dd14a3690147b716c7abeba6e2468ab57a5dd609012ca5fa70036"
+        },
+        {
+          "source": "D:/月球导航/script/build_lugre_dynamic_receiver_trajectory_1min.py",
+          "relative_path": "script/build_lugre_dynamic_receiver_trajectory_1min.py",
+          "local_imports": [
+            "orbit_models",
+            "run_lugre_lunar_orbit_inversion",
+            "run_lugre_surface_fixed_site_geometry"
+          ],
+          "sha256": "c76104e218205e6d664f57e16e90098f58379e2579b035cce4c5fa13b9c44ec1"
+        }
+      ],
+      "missing_entrypoints": []
+    },
+    "dynamic_cn0": {
+      "entrypoints": [
+        "build_dynamic_six_ops_predictions",
+        "build_dynamic_multiband_one_common_1min"
+      ],
+      "files": [
+        {
+          "source": "D:/月球导航/script/build_dynamic_multiband_one_common_1min.py",
+          "relative_path": "script/build_dynamic_multiband_one_common_1min.py",
+          "local_imports": [
+            "build_lugre_dynamic_receiver_trajectory_1min",
+            "build_plot_wgc_multiband_cn0"
+          ],
+          "sha256": "73a549ef39cbbb1b6ce77fff30da5850bf3240db8b14f35badd65ae4b81ffee6"
+        },
+        {
+          "source": "D:/月球导航/script/build_lugre_dynamic_receiver_trajectory_1min.py",
+          "relative_path": "script/build_lugre_dynamic_receiver_trajectory_1min.py",
+          "local_imports": [
+            "orbit_models",
+            "run_lugre_lunar_orbit_inversion",
+            "run_lugre_surface_fixed_site_geometry"
+          ],
+          "sha256": "c76104e218205e6d664f57e16e90098f58379e2579b035cce4c5fa13b9c44ec1"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/run_lugre_lunar_orbit_inversion.py",
+          "relative_path": "script/algorithm/orbit_dynamics/run_lugre_lunar_orbit_inversion.py",
+          "local_imports": [
+            "orbit_models"
+          ],
+          "sha256": "05e086e74e1481c7e0deb843055e43511496073749a1ea9901b01719048dd78c"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/orbit_models.py",
+          "relative_path": "script/algorithm/orbit_dynamics/orbit_models.py",
+          "local_imports": [],
+          "sha256": "7a266c8e224ffe5f8db2b1cf6dfb5ac0dfaf73149de0bceed0d2c16fc4ca8818"
+        },
+        {
+          "source": "D:/月球导航/script/algorithm/orbit_dynamics/run_lugre_surface_fixed_site_geometry.py",
+          "relative_path": "script/algorithm/orbit_dynamics/run_lugre_surface_fixed_site_geometry.py",
+          "local_imports": [],
+          "sha256": "da3706f7a1fc87d17b428470d35bcfbd4555fb31b2fd1ea357fc02d8c93399c3"
+        },
+        {
+          "source": "D:/月球导航/script/build_plot_wgc_multiband_cn0.py",
+          "relative_path": "script/build_plot_wgc_multiband_cn0.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain",
+            "build_cn0_constellation_physics_baseline",
+            "gps_iif_antenna_patterns",
+            "orbex_attitude",
+            "plot_wgc_reference_time_cn0_best_model",
+            "simulate_continuous_cn0_reference",
+            "train_cn0_general_residual_models"
+          ],
+          "sha256": "d287820ab1c6aeb130b6b4dc8319dcc50642660ab3f94e6cc8124fa18865bc19"
+        },
+        {
+          "source": "D:/月球导航/script/plot_wgc_reference_time_cn0_best_model.py",
+          "relative_path": "script/plot_wgc_reference_time_cn0_best_model.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain",
+            "build_cn0_constellation_physics_baseline",
+            "simulate_continuous_cn0_reference",
+            "train_cn0_constellation_residual_models"
+          ],
+          "sha256": "3b1c70e8b6790e80b738632d00bda412ac5424e0db6f74925afb4cdf063d0a59"
+        },
+        {
+          "source": "D:/月球导航/script/simulate_continuous_cn0_reference.py",
+          "relative_path": "script/simulate_continuous_cn0_reference.py",
+          "local_imports": [
+            "build_cn0_attitude_2d_gain"
+          ],
+          "sha256": "aaf73ba7cdc29f85e51b3dbbd9a99e38741c619c21dc7d16f72491cabb084abb"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_attitude_2d_gain.py",
+          "relative_path": "script/build_cn0_attitude_2d_gain.py",
+          "local_imports": [
+            "gps_iif_antenna_patterns",
+            "orbex_attitude"
+          ],
+          "sha256": "41e5c4d8e6fd6bf3f736f47f9c00f7a7840404a9ca6ae1ce97e5e1c3fecd0ed9"
+        },
+        {
+          "source": "D:/月球导航/script/orbex_attitude.py",
+          "relative_path": "script/orbex_attitude.py",
+          "local_imports": [],
+          "sha256": "5834cf7d1c98e4eaa07bcf428555b3016167210b4f6739adc4c0272a5a91dcf7"
+        },
+        {
+          "source": "D:/月球导航/script/gps_iif_antenna_patterns.py",
+          "relative_path": "script/gps_iif_antenna_patterns.py",
+          "local_imports": [],
+          "sha256": "6c88bd983658303d33cb3c04b7959a73ad8561145e87dc8e7125d2256e9b89f0"
+        },
+        {
+          "source": "D:/月球导航/script/build_cn0_constellation_physics_baseline.py",
+          "relative_path": "script/build_cn0_constellation_physics_baseline.py",
+          "local_imports": [],
+          "sha256": "7795101b07b5d5e58e9e37865f08454562386f0bd4c4d7b8a972f961716e7d03"
+        },
+        {
+          "source": "D:/月球导航/script/train_cn0_constellation_residual_models.py",
+          "relative_path": "script/train_cn0_constellation_residual_models.py",
+          "local_imports": [],
+          "sha256": "d3438bc3267b59dd9d0f865ac07b394a2f287ba1ebcab3fbd89cbf18ffc4ba70"
+        },
+        {
+          "source": "D:/月球导航/script/train_cn0_general_residual_models.py",
+          "relative_path": "script/train_cn0_general_residual_models.py",
+          "local_imports": [],
+          "sha256": "420d283129d4a7895b21e31c9d9b206a90f51f5799bec3482d21bdb755f6b942"
+        },
+        {
+          "source": "D:/月球导航/script/build_dynamic_six_ops_predictions.py",
+          "relative_path": "script/build_dynamic_six_ops_predictions.py",
+          "local_imports": [
+            "build_lugre_dynamic_receiver_trajectory_1min",
+            "build_plot_wgc_multiband_cn0",
+            "plot_full_mission_four_band_ai_cn0_sidelobe"
+          ],
+          "sha256": "a36e8d9cf2b05fc7de4d8b1aa3b85943146928db8631af7fc2a20aea311785ed"
+        },
+        {
+          "source": "D:/月球导航/script/plot_full_mission_four_band_ai_cn0_sidelobe.py",
+          "relative_path": "script/plot_full_mission_four_band_ai_cn0_sidelobe.py",
+          "local_imports": [],
+          "sha256": "78590aec20189f827aae303e0c30991464d0814e25e07aaa831b551c0650ed38"
+        }
+      ],
+      "missing_entrypoints": []
+    }
+  },
+  "remaining_limits": [
+    "Release path configuration is still required for original scripts with hard-coded workspace and old manuscript sibling paths.",
+    "Pixel-identical regeneration of later manually relabeled/cropped manuscript rasters is not established by this numerical-input audit.",
+    "File-level licenses not explicitly recorded for some public antenna/orbit/kernel products; links-only packaging avoids redistributing those binaries."
+  ]
+}

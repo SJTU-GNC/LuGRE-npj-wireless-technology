@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the accompanying manuscript."
+type: software
+title: "AI-driven cislunar GNSS channel modelling from lunar observations"
+version: 1.0.0
+date-released: 2026-09-30
+license: MIT
+repository-code: "https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology"
+url: "https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology"
+authors:
+  - family-names: Ma
+    given-names: Yuquan
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Yang
+    given-names: Rong
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Li
+    given-names: Zhihong
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Vaca Velasquez
+    given-names: Domenica Paulina
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Gao
+    given-names: Wei
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Zhan
+    given-names: Xingqun
+    affiliation: "Shanghai Jiao Tong University"
+  - family-names: Nardin
+    given-names: Andrea
+    affiliation: "Politecnico di Torino"
+  - family-names: Minetto
+    given-names: Alex
+    affiliation: "Politecnico di Torino"
+  - family-names: Dovis
+    given-names: Fabio
+    affiliation: "Politecnico di Torino"
+abstract: >-
+  Code for a physics-guided cislunar GNSS C/N0 model and its residual-learning,
+  attribution, sensitivity and calibration analyses. The companion derived-data
+  deposit supplies the frozen features, fitted models and numerical source data.
+keywords:
+  - GNSS
+  - LuGRE
+  - cislunar navigation
+  - channel modelling
+  - residual learning

@@ -1,0 +1,8 @@
+# Environment that successfully reproduced the saved model and its refit.
+# Python 3.12.14 was used for the release verification.
+numpy==2.5.1
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+joblib==1.5.3
+threadpoolctl==3.6.0
