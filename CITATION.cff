@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite this release and the accompanying manuscript."
 type: software
 title: "AI-driven cislunar GNSS channel modelling from lunar observations"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-09-30
 license: MIT
 repository-code: "https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology"

@@ -1,12 +1,12 @@
 # LuGRE cislunar C/N0 model — code
 
-Version 1.0.0 accompanies the manuscript *AI-driven cislunar GNSS channel modelling from lunar observations*.
+Version 1.0.1 accompanies the manuscript *AI-driven cislunar GNSS channel modelling from lunar observations*. This documentation update explains the six-part data download; analysis code and numerical settings are unchanged from version 1.0.0.
 
 Code repository: [SJTU-GNC/LuGRE-npj-wireless-technology](https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology).
 
 Companion derived-data deposit: [Zenodo, version 1.0.0](https://doi.org/10.5281/zenodo.23055100). The upstream LuGRE mission DOI in the source inventory identifies the original observations, not this study's derived-data deposit.
 
-Extract the companion data archive to `data/` and place this repository in a sibling `code/` directory. For example, clone the repository with `git clone https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology.git code`. Public original observations, ephemerides, attitude products, antenna products and papers are not distributed here. Their sources and download requirements are documented in the data package's `data/PUBLIC_DATA_SOURCES.md` and `data/public_input_inventory.json`; [PUBLIC_DATA_SOURCES.md](PUBLIC_DATA_SOURCES.md) and `public_input_inventory.json` here provide the same input inventory for code-only readers.
+Download all six `LuGRE_data_*_v1.0.0.zip` files from the Zenodo record and extract them into the same parent directory to create the complete `data/` tree. These are independently readable ZIP archives, not binary split volumes. Place this repository in a sibling `code/` directory; for example, use `git clone https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology.git code`. Public original observations, ephemerides, attitude products, antenna products and papers are not distributed here. Their sources and download requirements are documented in the data package's `data/PUBLIC_DATA_SOURCES.md` and `data/public_input_inventory.json`; [PUBLIC_DATA_SOURCES.md](PUBLIC_DATA_SOURCES.md) and `public_input_inventory.json` here provide the same input inventory for code-only readers.
 
 ## Start here
 
