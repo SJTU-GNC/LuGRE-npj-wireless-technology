@@ -1,6 +1,6 @@
 # LuGRE cislunar C/N0 model — code
 
-Version 1.0.1 accompanies the manuscript *AI-driven cislunar GNSS channel modelling from lunar observations*. This documentation update explains the six-part data download; analysis code and numerical settings are unchanged from version 1.0.0.
+Version 1.0.2 accompanies the manuscript *AI-driven cislunar GNSS channel modelling from lunar observations*. This packaging update explains the six-part data download and preserves file bytes across operating systems for checksum verification; analysis code and numerical settings are unchanged from version 1.0.0.
 
 Code repository: [SJTU-GNC/LuGRE-npj-wireless-technology](https://github.com/SJTU-GNC/LuGRE-npj-wireless-technology).
 

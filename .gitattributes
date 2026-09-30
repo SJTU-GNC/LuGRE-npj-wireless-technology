@@ -1,0 +1,2 @@
+# Preserve released bytes so SHA256 checks work across operating systems.
+* -text
